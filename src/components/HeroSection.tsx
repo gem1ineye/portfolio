@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import heroGrid from "@/assets/hero-grid.jpg";
-import profileImg from "/public/profile.jpg";
+import profileImg from "/profile.jpg";
 import { ArrowRight, Download, MapPin, Coffee, Briefcase } from "lucide-react";
 
 const TYPING_SKILLS = ["React Developer", "Node.js Engineer", "MongoDB Expert", "Express Architect", "MERN Stack Dev"];
