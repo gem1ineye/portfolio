@@ -20,7 +20,7 @@ const hobbies = [
   },
   {
     icon: Microscope,
-    title: "TECH RESEARCH",
+    title: "BLOGGING",
     desc: "Exploring cutting-edge papers, AI trends, and emerging web technologies.",
     color: "purple",
     link: "https://hashnode.com/@gem1ineye",
