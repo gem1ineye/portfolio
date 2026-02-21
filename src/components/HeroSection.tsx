@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import heroGrid from "@/assets/hero-grid.jpg";
 import profileImg from "/profile.jpg";
-import { ArrowRight, Download, MapPin, Coffee, Briefcase } from "lucide-react";
+import { ArrowRight, Download, MapPin, Coffee, Briefcase, Cake } from "lucide-react";
 
 const TYPING_SKILLS = ["React Developer", "Node.js Engineer", "MongoDB Expert", "Express Architect", "MERN Stack Dev"];
 
@@ -217,9 +217,9 @@ const HeroSection = () => {
                       </span>
                     </div>
                     <div className="flex items-center gap-2.5 text-muted-foreground">
-                      <Coffee className="w-3.5 h-3.5 text-neon-blue flex-shrink-0" />
+                      <Cake className="w-3.5 h-3.5 text-neon-blue flex-shrink-0" />
                       <span className="font-mono text-xs">
-                        Fueled by caffeine & code
+                        27 May 2001
                       </span>
                     </div>
                   </div>
