@@ -16,8 +16,8 @@ const projects = [
     name: "E-COMMERCE STORE",
     description:
       "Full-featured e-commerce platform built on the MERN stack with secure authentication, product management, cart system, Stripe payment integration, and admin dashboard for inventory and order control.",
-    tech: ["React", "Node.js", "Express.js", "MongoDB", "Stripe", "JWT"],
-    github: "#",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "RazorPay", "JWT"],
+    github: "https://github.com/gem1ineye/E-Commi-V1.git",
     demo: "#",
     featured: true,
   },
