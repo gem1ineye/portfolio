@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { Instagram, Linkedin, Github, Mail, ArrowUpRight } from "lucide-react";
+import { Instagram, Linkedin, Github, Mail, ArrowUpRight,CodeXml } from "lucide-react";
 
 const socials = [
   {
@@ -34,9 +34,24 @@ const socials = [
     color: "purple",
     desc: "Direct transmission",
   },
+  {
+    icon: CodeXml,
+    label: "LeetCode",
+    handle: "@gem1ineye",
+    href: "https://leetcode.com/u/gem1ineye/",
+    color: "orange",
+    desc: "Open source projects & code",
+  },
 ];
 
 const colorMap = {
+  orange: {
+  border: "border-neon-orange/20 hover:border-neon-orange",
+  icon: "text-neon-orange",
+  bg: "hover:bg-neon-orange/5",
+  glow: "hover:shadow-neon-orange",
+  badge: "bg-neon-orange/10 text-neon-orange",
+},
   cyan: {
     border: "border-neon-cyan/20 hover:border-neon-cyan",
     icon: "text-neon-cyan",
