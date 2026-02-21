@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Skull } from "lucide-react";
+import { Menu, X, Skull, VenetianMask } from "lucide-react";
 
 const navLinks = [
   { label: "HOME", href: "#home" },
@@ -44,7 +44,7 @@ const SpaceNavigation = () => {
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2 group">
           <div className="w-8 h-8 rounded border border-neon-cyan/60 flex items-center justify-center pulse-glow-cyan">
-            <Skull className="w-10 h-30 text-neon-cyan" />
+            <VenetianMask className="w-10 h-30 text-neon-cyan" />
           </div>
           <span className="font-display text-sm font-bold neon-text-cyan tracking-widest">
             Harshit X Gem1ineye
