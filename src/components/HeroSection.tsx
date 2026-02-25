@@ -129,7 +129,7 @@ const HeroSection = () => {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="/resume/Harshit_Resume.pdf"
+                href="/resume/Resume2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
