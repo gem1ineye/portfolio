@@ -18,7 +18,7 @@ const projects = [
       "Full-featured e-commerce platform built on the MERN stack with secure authentication, product management, cart system, Stripe payment integration, and admin dashboard for inventory and order control.",
     tech: ["React", "Node.js", "Express.js", "MongoDB", "RazorPay", "JWT"],
     github: "https://github.com/gem1ineye/E-Commi-V1.git",
-    demo: "https://e-commi-v1.vercel.app/products/699d84b989b5796891432f6f",
+    demo: "https://e-commi-v1.vercel.app",
     featured: true,
   },
 ];
